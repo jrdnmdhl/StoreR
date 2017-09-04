@@ -9,6 +9,7 @@
 #'
 #' @return A function which can be used to save to or read from
 #' the data store.
+#' @export
 store <- function(path) {
   function(expr, ...) {
 
